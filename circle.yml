@@ -2,8 +2,4 @@ deployment:
   deploy:
     branch: master
     commands:
-      - ssh $SV /home/centos/a.sh
-
-dependencies:
-  override:
-    - pip install fabric
+      - ssh centos@$SV /home/centos/a.sh
