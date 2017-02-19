@@ -1,6 +1,7 @@
 deployment:
-  commands:
-    - ssh $SV /home/centos/a.sh
+  deploy:
+    commands:
+      - ssh $SV /home/centos/a.sh
 
 dependencies:
   override:
