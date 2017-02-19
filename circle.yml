@@ -1,3 +1,7 @@
+development:
+  commands:
+    - ssh ${SV} /home/centos/a.sh
+
 dependencies:
   override:
     - pip install fabric
