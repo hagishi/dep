@@ -1,5 +1,6 @@
 deployment:
   deploy:
+    branch: master
     commands:
       - ssh $SV /home/centos/a.sh
 
